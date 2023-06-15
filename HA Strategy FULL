@@ -1,16 +1,16 @@
 //@version=2
 // Based on Heikin Ashi Strategy v2 by vvsg
 
-strategy("Heikin Ashi", shorttitle="HA", overlay=false)
+strategy("Heikin Ashi LONG AND SHORTS", shorttitle="HA L&S", overlay=false)
 
-res = input(title="Heikin Ashi Candle Time Frame", type=resolution, defval="60")
-hshift = input(1,title="Heikin Ashi Candle Time Frame Shift")
-res1 = input(title="Heikin Ashi EMA Time Frame", type=resolution, defval="180")
+res = input(title="Heikin Ashi Candle Time Frame", type=resolution, defval="100")
+hshift = input(0,title="Heikin Ashi Candle Time Frame Shift")
+res1 = input(title="Heikin Ashi EMA Time Frame", type=resolution, defval="500")
 mhshift = input(0,title="Heikin Ashi EMA Time Frame Shift")
-fama = input(1,"Heikin Ashi EMA Period")
-test = input(1,"Heikin Ashi EMA Shift")
-sloma = input(30,"Slow EMA Period")
-slomas = input(1,"Slow EMA Shift")
+fama = input(10,"Heikin Ashi EMA Period")
+test = input(0,"Heikin Ashi EMA Shift")
+sloma = input(100,"Slow EMA Period")
+slomas = input(0,"Slow EMA Shift")
 logtransform = input(false, "Log Transform")
 stoploss = input(true, "Stop Loss")
 showplots = input(true, "Show Plots")
