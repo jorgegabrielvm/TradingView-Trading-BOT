@@ -1,4 +1,8 @@
 # TradingView-Trading-BOT
 
+// Bybit ETH-USD 15 min timeframe
+// no ST, no TP
+
 // comment exitLong, exitShort for using two alerts (you use this script two times: one for opening and one for closing)
 // you can create two scripts in TradingView, one for entry positions, one for exiting them
+// which means you need two alerts to make it worrk both ways
