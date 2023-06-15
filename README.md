@@ -2,6 +2,7 @@
 
 // Bybit ETH-USD 15 min timeframe
 // 5% - 10% capital per trade
+// 3x leverage
 // no ST, no TP
 
 // comment exitLong, exitShort for using two alerts (you use this script two times: one for opening and one for closing)
