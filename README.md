@@ -1,6 +1,6 @@
 # TradingView-Trading-BOT
 
-// Bybit ETH-USD 15 min timeframe
+// Bybit BTC-USD 15 min timeframe
 // 5% - 10% capital per trade
 // 10x leverage
 // no ST, no TP
