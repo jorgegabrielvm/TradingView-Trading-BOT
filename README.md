@@ -7,6 +7,6 @@ Bybit MATIC-USD PERP
 // 10x leverage
 // no ST, no TP
 
-// comment exitLong, exitShort for using two alerts (you use this script two times: one for opening and one for closing)
-// you can create two scripts in TradingView, one for entry positions, one for exiting them
+// comment# exitLong or exitShort. You use this script two times: one for opening and one for closing
+// you can create two scripts in TradingView.
 // which means you need two alerts to make it work both ways
